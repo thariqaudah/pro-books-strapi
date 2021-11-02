@@ -58,6 +58,10 @@
     "publish_date": {
       "type": "date",
       "required": false
+    },
+    "order": {
+      "via": "products",
+      "model": "order"
     }
   }
 }
